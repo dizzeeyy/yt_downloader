@@ -57,9 +57,14 @@ This script will:
 - Clean and convert `.vtt` subtitle files to `.ass` format.
 - Embed subtitles into the videos (if available).
 
-### 2. Convert WebM/MKV to MP4 (automatically)
+### 2.1 Convert WebM/MKV to MP4 (automatically)
 
-Once the videos are downloaded and don't have subtitles, it'll be converted to `.mp4` automatically after ending first script `youtube.py`. You can convert them manually from `.webm` or `.mkv` format to `.mp4` using the `convert_all_webm.py` script:
+Once the videos are downloaded and don't have subtitles, it'll be converted to `.mp4` automatically after ending first script `youtube.py`. 
+
+
+### 2.2 Convert WebM/MKV to MP4 (manually)
+
+You can convert them manually from `.webm` or `.mkv` format to `.mp4` using the `convert_all_webm.py` script:
 
 ```bash
 python convert_all_webm.py
